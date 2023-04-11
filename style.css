@@ -80,10 +80,14 @@ body {
 .hourly-forecast-cards {
     margin-top: 30px;
     width: 100%;
+    height: 250px;
     overflow-x: scroll;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+.hourly-forecast-cards::-webkit-scrollbar {
+    display: none;
 }
 
 .hourly-forecast-container {
