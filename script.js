@@ -3,7 +3,7 @@ console.log('hello')
 let weather = {
     apiKey: '3479a9bea8684c1f9f9160946231004',
     fetchWeather: function(city) {
-        fetch(`http://api.weatherapi.com/v1/forecast.json?key=3479a9bea8684c1f9f9160946231004&q=${city}&days=1&aqi=no&alerts=no`)
+        fetch(`https://api.weatherapi.com/v1/forecast.json?key=3479a9bea8684c1f9f9160946231004&q=${city}&days=1&aqi=no&alerts=no`)
             .then((response) => response.json())
             .then((data) => this.displayWeather(data));
     },
