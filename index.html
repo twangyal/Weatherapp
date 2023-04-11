@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" class ="search-bar">
+            <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="weather-container">
+            <div class="forecast-day-top">
+                <div class="city-name">London</div>
+                <div class="current-temp">30°</div>
+                <div class="condition">Clear</div>
+                <div class="high-low">H:55 L:48</div>
+                <div class="humidity">Humidity: 63%</div>
+            </div>
+            <div class="forecast-day-bottom">
+                <div class="feels-like">Feels like 7°</div>
+                <div class="astro">
+                    <div class="astro-sun">Sunrise: 05:16 AM Sunset: 06:10 PM</div>
+                    <div class="astro-moon">Moonrise: 10:37 PM Moonset: 07:26 AM</div>
+                </div>
+            </div>
+        </div>
+        <div class="hourly-forecast-cards">
+            <div class="hourly-forecast-container">
+                <div class="hourly-forecast-info">
+                    <div class="hourly-forecast-time">00:00 AM</div>
+                    <div class="hourly-forecast-temp">23°</div>                
+                    <div class="hourly-forecast-condition-icon"></div>
+                    <div class="hourly-forecast-condition">Clear</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
